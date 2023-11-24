@@ -1,15 +1,21 @@
+import React from 'react';
+
 const ProjectsContainer = () => {
-    return (
-      <section className="projects-container">
-        <h2>Projetos</h2>
-        <p>
-          euuuuuuuuuuuuuuuuuuu
-        </p>
-        <a href="#" className="btn">
-          Ver Projetos
-        </a>
-      </section>
-    );
-  };
   
-  export default ProjectsContainer;
+  const handleVerProjetosClick = (event) => {
+    event.preventDefault(); 
+    const newTab = window.open('/projects', '_blank');
+  };
+
+  return (
+    <section className="projects-container">
+      <h2>Projetos</h2>
+      <p>euuuuuuuuuuuuuuuuuuu</p>
+      <a href="/projects" className="btn" onClick={handleVerProjetosClick}>
+        Ver Projetos
+      </a>
+    </section>
+  );
+};
+
+export default ProjectsContainer;
