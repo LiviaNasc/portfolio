@@ -10,7 +10,7 @@ const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
-      <p>euuuuuuuuuuuuuuuuuuu</p>
+      <p>Dê uma olhadinha nos meus projetos: </p>
       <a href="/projects" className="btn" onClick={handleVerProjetosClick}>
         Ver Projetos
       </a>

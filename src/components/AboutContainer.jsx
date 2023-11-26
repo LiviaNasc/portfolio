@@ -3,10 +3,10 @@ const AboutContainer = () => {
       <section className="about-container">
         <h2>Sobre</h2>
         <p>
-            eeeeeeeeeeeeeeeeeuuuuuuuuu
+            Sou uma estudante de ciências da computação ansiosa para aprender cada vez mais.
         </p>
         <p>
-          eeeeeeeeeeuuuuuuuuuuuuuuuuu
+          
         </p>
       </section>
     );
